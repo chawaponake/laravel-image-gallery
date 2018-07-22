@@ -41,6 +41,6 @@ class HomeController extends Controller
                 'composition' => $composition
             ]);
         }
-        return view('home');
+        return view('layouts.app');
     }
 }
